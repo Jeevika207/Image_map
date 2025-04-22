@@ -1,5 +1,5 @@
 # Ex04 Places Around Me
-# Date:
+# Date: 22-4-2025
 # AIM
 To develop a website to display details about the places around my house.
 
@@ -23,6 +23,237 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 # CODE
+
+```
+map.html
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My City</title>
+</head>
+<body bgcolor="#fdfaf6" text="#2c2c2c">
+
+    <h1 align="center">
+        <font color="#4B0082" size="10" face="Georgia">CHENNAI</font>
+    </h1>
+
+    <h3 align="center">
+        <font color="#800000" size="6" face="Trebuchet MS">JEEVIKA R (212224040137)</font>
+    </h3>
+
+    <center>
+        <img src="map.png" usemap="#MyCity" height="610" width="1450">
+        <map name="MyCity">
+            <area target="" alt="Government Museum Chennai" title="Government Museum Chennai" href="Museum.html" coords="542,86,669,164" shape="rect">
+            <area target="" alt="Express Avenue" title="Express Avenue" href="eavenue.html" coords="648,285,771,351" shape="rect">
+            <area target="" alt="Chidambaram Stadium" title="Chidambaram Stadium" href="stadium.html" coords="1085,215,1297,291" shape="rect">
+            <area target="" alt="PVR" title="PVR" href="pvr.html" coords="476,345,643,407" shape="rect">
+            <area target="" alt="AGS" title="AGS" href="ags.html" coords="306,530,490,556" shape="rect">
+        </map>
+    </center>
+
+</body>
+</html>
+
+
+
+museum.html
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CHENNAI CITY</title>
+</head>
+<body bgcolor="#fefcf9" text="#2c2c2c">
+
+    <h1 align="center">
+        <font size="10">CHENNAI</font>
+    </h1>
+
+    <h2 align="center">
+        <font size="7">Museum Chennai</font>
+    </h2>
+
+    <hr size="5" width="80%" color="#003366">
+
+    <p align="center">
+        <font face="Georgia" size="6">
+            Chennai is home to several renowned museums that showcase its rich history and culture. 
+            The Government Museum in Egmore, one of India s oldest, houses archaeological and art collections. 
+            Fort Museum highlights Chennai s colonial past with British-era artifacts. 
+            DakshinaChitra displays traditional South Indian homes and heritage. 
+            The Chennai Rail Museum offers insights into India  s railway history with vintage locomotives and exhibits.
+        </font>
+    </p>
+
+    <hr size="3" width="60%" color="#800020">
+
+</body>
+</html>
+
+
+
+eavenue.html
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CHENNAI CITY</title>
+</head>
+<body bgcolor="#fefcf9" text="#2c2c2c">
+
+    <h1 align="center">
+        <font size="10">CHENNAI</font>
+    </h1>
+
+    <h2 align="center">
+        <font size="7">Express Avenue</font>
+    </h2>
+
+    <hr size="5" width="80%" color="#003366">
+
+    <p align="center">
+        <font face="Georgia" size="6">
+            Express Avenue is a large shopping mall located in Royapettah, Chennai.  
+            It features over 210 retail stores, including top international brands.  
+            The mall has a spacious food court called EA Garden and an 8-screen Escape Cinema.  
+            It also includes South India's largest gaming arcade.  
+            Open daily from 10 AM to 10 PM, it offers ample parking and modern amenities.
+        </font>
+    </p>
+
+    <hr size="3" width="60%" color="#800020">
+
+</body>
+</html>
+
+
+
+stadium.html
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CHENNAI CITY</title>
+</head>
+<body bgcolor="#fefcf9" text="#2c2c2c">
+
+    <h1 align="center">
+        <font size="10">CHENNAI</font>
+    </h1>
+
+    <h2 align="center">
+        <font size="7">M. A. Chidambaram Stadium </font>
+    </h2>
+
+    <hr size="5" width="80%" color="#003366">
+
+    <p align="center">
+        <font face="Georgia" size="6">
+            Chepauk Stadium, officially called M. A. Chidambaram Stadium, is in Chennai.
+            It was established in 1916 and is one of India s oldest cricket grounds.
+            The stadium can seat around 38,000 spectators.
+            It is the home ground of the Chennai Super Kings (CSK) in the IPL.
+            Chepauk is known for historic matches, including India's first Test win in 1952.
+        </font>
+    </p>
+
+    <hr size="3" width="60%" color="#800020">
+
+</body>
+</html>
+
+
+pvr.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CHENNAI CITY</title>
+</head>
+<body bgcolor="#fefcf9" text="#2c2c2c">
+
+    <h1 align="center">
+        <font size="10">CHENNAI</font>
+    </h1>
+
+    <h2 align="center">
+        <font size="7">PVR Sathyam Cinemas</font>
+    </h2>
+
+    <hr size="5" width="80%" color="#003366">
+
+    <p align="center">
+        <font face="Georgia" size="6">
+            PVR Sathyam Cinemas is a popular multiplex located in Royapettah, Chennai.
+            It was originally known as Sathyam Cinemas before being acquired by PVR in 2018.
+            The theatre is known for its comfortable seating and high-quality sound system.
+            It offers a great movie experience along with popular snacks like popcorn and cold coffee.
+            Movie tickets and showtimes are available on platforms like BookMyShow.
+        </font>
+    </p>
+
+    <hr size="3" width="60%" color="#800020">
+
+</body>
+</html>
+
+
+
+ags.html
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CHENNAI CITY</title>
+</head>
+<body bgcolor="#fefcf9" text="#2c2c2c">
+
+    <h1 align="center">
+        <font size="10">CHENNAI</font>
+    </h1>
+
+    <h2 align="center">
+        <font size="7">AGS Cinemas</font>
+    </h2>
+
+    <hr size="5" width="80%" color="#003366">
+
+    <p align="center">
+        <font face="Georgia" size="6">
+            AGS Cinemas T. Nagar is a modern multiplex located on G.N. Chetty Road, Chennai.
+            It features 4 screens with a total seating capacity of 892.
+            The theatre offers a comfortable movie experience with food and beverage options.
+            It supports m-ticketing and has parking facilities for visitors.
+            Tickets and showtimes are available on the AGS website and BookMyShow.
+        </font>
+    </p>
+
+    <hr size="3" width="60%" color="#800020">
+
+</body>
+</html>
+```
+
 # OUTPUT
+![image](https://github.com/user-attachments/assets/98b6a49c-e1ae-4c89-9254-ccd0d7c2af0f)
+![image](https://github.com/user-attachments/assets/7ce6086b-bec3-4c94-af4f-1029b2c558cc)
+![image](https://github.com/user-attachments/assets/532fdcf7-03cd-40b4-aed4-7024a78970bd)
+![image](https://github.com/user-attachments/assets/612345a7-6f81-457f-a3ac-2c9fab4e36e3)
+![image](https://github.com/user-attachments/assets/018abbd5-8038-49b7-b870-951d12e08ef6)
+![image](https://github.com/user-attachments/assets/1e270b82-1f5f-473d-ad8f-0a828c9c4509)
+
+
+
+
+
+
+
 # RESULT
 The program for implementing image maps using HTML is executed successfully.
